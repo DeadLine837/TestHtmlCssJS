@@ -9,12 +9,15 @@
 
 namespace MvcZSGC.Models
 {
-    using System;
-    using System.Collections.Generic;
-    
-    public partial class PUser
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+
+	public partial class PUser
     {
-        public int ID { get; set; }
+		internal IQueryable<PUser> PUser_;
+
+		public int ID { get; set; }
         public string UserName { get; set; }
         public string RealName { get; set; }
         public string PassWd { get; set; }

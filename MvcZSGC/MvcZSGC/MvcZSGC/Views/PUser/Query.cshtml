@@ -1,0 +1,59 @@
+﻿@using MvcZSGC.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Query</title>
+</head>
+<body>
+	<div>
+		<table>
+
+			<tr>
+				<td>ID</td>
+				<td>用户名</td>
+				<td>真实名</td>
+				<td></td>
+			</tr>
+			@foreach (PUser s in ViewData["list"] as List<PUser>)
+			{
+				<tr>
+					<td>@s.ID</td>
+					<td>@s.UserName</td>
+					<td>@s.RealName</td>
+					<!--先加上下面这些功能先，稍后我要实现它~~-->
+					<td><a href="/PUser/Delete/@s.ID">删除</a> <a href="/PUser/Eidt/@s.ID">修改</a></td>
+				</tr>
+			}
+		</table>
+
+	</div>
+
+	<div class="text-center">
+		<nav>
+			@Html.Pager(Model.Articles, new PagerOptions
+		   {
+			   PageIndexParameterName = "id",
+			   FirstPageText = "首页",
+			   PrevPageText = "上一页",
+			   NextPageText = "下一页",
+			   LastPageText = "末页",
+			   ContainerTagName = "ul",
+			   CssClass = "pagination",
+			   CurrentPagerItemTemplate = "<li class=\"active\"><a href=\"#\">{0}</a></li>",
+			   DisabledPagerItemTemplate = "<li class=\"disabled\"><a>{0}</a></li>",
+			   PagerItemTemplate = "<li>{0}</li>",
+			   Id = "bootstrappager"
+		   })
+		</nav>
+	</div>
+
+
+
+</body>
+</html>

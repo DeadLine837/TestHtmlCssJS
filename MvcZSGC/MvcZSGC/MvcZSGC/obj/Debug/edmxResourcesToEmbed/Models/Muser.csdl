@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dhdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RealName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PassWd" Type="String" MaxLength="120" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Permission" Type="Int32" />
+    <Property Name="Mobile1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Imie" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Mobile2" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Phone1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Sex" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="RoleID" Type="Int32" />
+    <Property Name="DeptID" Type="Int32" />
+    <Property Name="State" Type="Int32" />
+    <Property Name="Isuse" Type="Int32" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UserType" Type="Int32" />
+    <Property Name="GroupID" Type="Int32" />
+    <Property Name="ReclassifyGroup" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="Createtime" Type="DateTime" Precision="3" />
+    <Property Name="CLIENTID" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SpName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SpPw" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="dhdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PUsers" EntityType="Self.PUser" />
+  </EntityContainer>
+</Schema>

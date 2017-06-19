@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dhdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="RealName" Type="nvarchar" MaxLength="250" />
+    <Property Name="PassWd" Type="nvarchar" MaxLength="120" Nullable="false" />
+    <Property Name="Role" Type="nvarchar" MaxLength="150" />
+    <Property Name="Permission" Type="int" />
+    <Property Name="Mobile1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Imie" Type="nvarchar" MaxLength="100" />
+    <Property Name="Mobile2" Type="nvarchar" MaxLength="300" />
+    <Property Name="Phone1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Sex" Type="nvarchar" MaxLength="1" />
+    <Property Name="RoleID" Type="int" />
+    <Property Name="DeptID" Type="int" />
+    <Property Name="State" Type="int" />
+    <Property Name="Isuse" Type="int" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="UserType" Type="int" />
+    <Property Name="GroupID" Type="int" />
+    <Property Name="ReclassifyGroup" Type="nvarchar" MaxLength="1" />
+    <Property Name="Createtime" Type="datetime" />
+    <Property Name="CLIENTID" Type="nvarchar" MaxLength="150" />
+    <Property Name="SpName" Type="nvarchar" MaxLength="150" />
+    <Property Name="SpPw" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityContainer Name="dhdbModelStoreContainer">
+    <EntitySet Name="PUser" EntityType="Self.PUser" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
