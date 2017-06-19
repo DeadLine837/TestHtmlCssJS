@@ -100,11 +100,18 @@
     <Content Include="Models\Muser.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Muser.Context.cs</LastGenOutput>
+      <DependentUpon>Muser.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\Muser.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Muser.edmx</DependentUpon>
+      <LastGenOutput>Muser.cs</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\PUserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -113,10 +120,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Muser.Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Muser.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Muser.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Muser.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Muser.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PUser.cs">
+      <DependentUpon>Muser.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -127,9 +142,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Muser.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Models\Muser.edmx.diagram">
+    <Content Include="Models\Muser.edmx.diagram">
       <DependentUpon>Muser.edmx</DependentUpon>
-    </None>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -139,7 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="Views\PUser\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
