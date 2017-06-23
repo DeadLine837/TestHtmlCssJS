@@ -158,6 +158,7 @@
     <Content Include="Views\PUser\Query.cshtml" />
     <Content Include="Views\_ArticleTable.cshtml" />
     <Content Include="Views\PUser\Basic.cshtml" />
+    <Content Include="Views\PUser\Indexx.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

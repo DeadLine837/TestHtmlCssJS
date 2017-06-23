@@ -1,0 +1,52 @@
+﻿@model PagedList.IPagedList<MvcZSGC.Models.PUser>
+@using PagedList.Mvc;
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+	<title>Indexxxxx</title>
+	<style type="text/css">
+		ul.pagination {
+			margin: 0;
+		}
+
+		.pagination li {
+			list-style-type: none;
+			float: left;
+			min-width: 15px;
+		}
+	</style>
+
+</head>
+<body>
+    <div> 
+		<table>
+			<tr>
+				<td>ID</td>
+				<td>用户名</td>
+				<td>真实名</td>
+				<td></td>
+			</tr>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(modelItem => item.ID)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.UserName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.RealName)
+					</td>
+				</tr>
+			}
+		</table>
+		@Html.PagedListPager(Model, page => Url.Action("Indexx", new { page }))
+    </div>
+</body>
+</html>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MvcZSGC.Models;
+using PagedList;
 
 namespace MvcZSGC.Controllers
 {
@@ -27,5 +28,15 @@ namespace MvcZSGC.Controllers
 			return View();
 		}
 
+		public ActionResult Indexx(int page = 1)
+		{
+			return View(entity.PUsers.OrderBy(p => p.ID).ToPagedList(page, 10));
+		}
+
+		protected override void Dispose(bool disposing)
+		{
+			entity.Dispose();
+			base.Dispose(disposing);
+		}
 	}
 }
