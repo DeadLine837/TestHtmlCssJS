@@ -1,0 +1,39 @@
+﻿@using MvcZSGC.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Query</title>
+</head>
+<body>
+	<div>
+		<table>
+
+			<tr>
+				<td>ID</td>
+				<td>用户名</td>
+				<td>真实名</td>
+				<td></td>
+			</tr>
+			@foreach (PUser s in ViewData["list"] as List<PUser>)
+			{
+				<tr>
+					<td>@s.ID</td>
+					<td>@s.UserName</td>
+					<td>@s.RealName</td>
+					<!--先加上下面这些功能先，稍后我要实现它~~-->
+					<td><a href="/PUser/Delete/@s.ID">删除</a> <a href="/PUser/Eidt/@s.ID">修改</a></td>
+				</tr>
+			}
+		</table>
+
+	</div>
+
+
+</body>
+</html>
