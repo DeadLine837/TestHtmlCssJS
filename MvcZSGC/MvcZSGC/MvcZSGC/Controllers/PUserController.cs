@@ -26,5 +26,6 @@ namespace MvcZSGC.Controllers
 		{
 			return View();
 		}
+
 	}
 }

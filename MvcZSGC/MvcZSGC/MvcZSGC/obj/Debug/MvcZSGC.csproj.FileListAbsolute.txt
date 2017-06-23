@@ -1,3 +1,4 @@
+D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\obj\Debug\MvcZSGC.csprojResolveAssemblyReference.cache
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\roslyn\csc.exe
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\roslyn\csc.exe.config
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\roslyn\csc.rsp
@@ -31,6 +32,8 @@ D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\EntityFramework.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\EntityFramework.SqlServer.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\Microsoft.Web.Infrastructure.dll
+D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\PagedList.dll
+D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\PagedList.Mvc.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Helpers.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Mvc.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Razor.dll
@@ -40,6 +43,8 @@ D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Webpages
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\EntityFramework.xml
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\EntityFramework.SqlServer.xml
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\PagedList.xml
+D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\PagedList.Mvc.xml
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Razor.xml
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Webpages.xml
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Webpages.Deployment.xml
@@ -47,12 +52,12 @@ D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Webpages
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Helpers.xml
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\System.Web.Mvc.xml
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\zh-Hans\EntityFramework.resources.dll
+D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\zh-Hans\System.Web.Razor.resources.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\zh-Hans\System.Web.Webpages.resources.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\zh-Hans\System.Web.Helpers.resources.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\bin\zh-Hans\System.Web.Mvc.resources.dll
-D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\obj\Debug\MvcZSGC.csprojResolveAssemblyReference.cache
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\obj\Debug\MvcZSGC.dll
 D:\SourceTreeStore\HtmlCssJSTest\MvcZSGC\MvcZSGC\MvcZSGC\obj\Debug\MvcZSGC.pdb
